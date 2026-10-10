@@ -1,0 +1,31 @@
+# Dependencies for the DPG-Bench evaluator.
+torch
+torchvision
+accelerate
+numpy
+pandas
+pillow
+tqdm
+
+# ModelScope's mPLUG backend uses the following runtime packages. This list is
+# kept aligned with the DPG evaluator requirements already used by ELLA.
+cloudpickle
+decord>=0.6.0
+diffusers
+fairseq
+ftfy>=6.0.3
+modelscope
+opencv-python
+rapidfuzz
+rouge_score<=0.0.4
+safetensors
+soundfile
+taming-transformers-rom1504
+tiktoken
+timm
+tokenizers
+transformers
+transformers_stream_generator
+unicodedata2
+zhconv
+sentencepiece

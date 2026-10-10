@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Experiment outputs
+output*/
+outputs/
+runs/
+wandb/
+
+# Local environment and secrets
+.venv/
+.env

@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchvision
+numpy
+pillow
+tqdm
+scipy
+requests
+tensorflow
+flash-attn
+xformers

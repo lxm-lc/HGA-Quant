@@ -1,0 +1,12 @@
+# Dependencies for the ImageReward evaluator only.
+torch
+torchvision
+numpy
+Pillow
+image-reward
+tiktoken
+
+# These packages are used by the ImageReward runtime used by the original Infinity evaluation workflow.
+diffusers==0.16.0
+ftfy
+git+https://github.com/openai/CLIP.git

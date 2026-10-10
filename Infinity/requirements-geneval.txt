@@ -1,0 +1,15 @@
+# Dependencies for the GenEval evaluator only.
+# Install a PyTorch/TorchVision build compatible with your OpenMMLab stack.
+torch
+torchvision
+numpy
+pandas
+Pillow
+tqdm
+open-clip-torch==2.20.0
+clip-benchmark
+openmim
+mmdet==2.28.2
+
+# Install the compiled OpenMMLab components with openmim:
+# mim install mmengine "mmcv-full==1.7.2"
